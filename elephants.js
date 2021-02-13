@@ -94,7 +94,7 @@ class Elephant {
     image(elephantImg, this.position.x, this.position.y, this.r * 2, this.r * 2);
   }
 }
-let elephants = [new Elephant(100, 400, 25), new Elephant(700, 500, 40), new Elephant(230, 300, 40), new Elephant(400, 300, 20), new Elephant(300, 400, 80)];
+let elephants = [new Elephant(100, 400, 50), new Elephant(700, 500, 70), new Elephant(30, 300, 70), new Elephant(400, 320, 60), new Elephant(380, 430, 80), new Elephant(300, 300,100), new Elephant(300, 470, 90), new Elephant(350, 400, 30)];
 function setup() {
   createCanvas(windowWidth - 5, windowHeight - 5);
   bgImg = loadImage('space.jpg');
